@@ -66,7 +66,7 @@ class AppointmentViewModel : ViewModel() {
             fullName = fullName,
             mobileNo = mobileNo,
             appointmentDate = _appointmentDate.value ?: LocalDate.now(),
-            appointmentTime = _appointmentTime.value ?: LocalTime.of(9, 0),
+            appointmentTime = _appointmentTime.value ?: LocalTime.now(),
             age = age,
             gender = _selectedGender.value.orEmpty(),
             location = _selectedLocation.value.orEmpty()
