@@ -102,7 +102,6 @@ fun DescriptionPart(modifier: Modifier) {
     }
 }
 
-
 @Composable
 fun ButtonComponent(
     modifier: Modifier,
